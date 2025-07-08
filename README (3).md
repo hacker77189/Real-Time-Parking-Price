@@ -2,10 +2,6 @@
 
 An end-to-end, real-time intelligent pricing system that dynamically updates parking rates for 14 urban lots based on real-time data streams. Built using Python, Pandas, NumPy, and **Pathway**, with real-time interactive visualizations in **Bokeh**.
 
-> 📘 Capstone Project – **Summer Analytics 2025**  
-> 🧠 Hosted by: *Consulting & Analytics Club × Pathway*
-
----
 
 ## 📌 Project Overview
 
@@ -16,7 +12,6 @@ Static parking rates lead to either overcrowding or underuse. This project simul
 - Traffic flow and special events  
 - Vehicle type and competitive pricing
 
----
 
 ## 🧠 Pricing Models
 
@@ -58,14 +53,6 @@ price = base_price × (1 + λ × normalized_demand)
 - All features are combined using interpretable weights  
 - Final price is clipped between `0.5×` and `2×` base price (`$10`)  
 - Enhances intelligence over baseline with multi-feature awareness
-
----
-
-### 🔁 Coming Soon: Model 3 (Competitive Pricing)
-
-> Uses geographic distance and pricing of nearby lots to adjust current price:
-- Reroute users if nearby lots are cheaper and less crowded
-- Exploit competitive advantage when nearby lots are more expensive
 
 ---
 
